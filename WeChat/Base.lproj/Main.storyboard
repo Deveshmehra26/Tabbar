@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oos-JB-yPy">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Call-->
+        <scene sceneID="2Ij-tO-Ihb">
+            <objects>
+                <viewController id="YcA-Px-g1i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gdu-1w-j5s">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="sae-F4-xZl"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Call" image="call" selectedImage="call_selected" id="BZm-wE-ta9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ylg-Mo-xb7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2121" y="583"/>
+        </scene>
+        <!--Updates-->
+        <scene sceneID="Std-zn-gOR">
+            <objects>
+                <viewController id="wKY-BN-Mks" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B9c-mn-635">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="loZ-VZ-2fH"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Updates" image="updates" selectedImage="updates_selected" id="aJj-PR-IHR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1j2-zM-orV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1163" y="343"/>
+        </scene>
+        <!--Communities-->
+        <scene sceneID="KQG-hq-zgu">
+            <objects>
+                <viewController id="PTM-Fw-Hxv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LF8-s3-ioE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bP9-gr-9U2"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Communities" image="communities" selectedImage="communities_selected" id="EYa-Lo-hOi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BAP-Ea-gPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3254" y="953"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="iFq-3d-otO">
+            <objects>
+                <viewController id="GCF-tq-7VK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qu5-PG-GRt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOF-tY-by8">
+                                <rect key="frame" x="104.66666666666669" y="415.66666666666669" width="184" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VVN-ut-VSS"/>
+                        <color key="backgroundColor" systemColor="tableCellBlueTextColor"/>
+                        <constraints>
+                            <constraint firstItem="FOF-tY-by8" firstAttribute="centerY" secondItem="qu5-PG-GRt" secondAttribute="centerY" id="1LR-vT-289"/>
+                            <constraint firstItem="FOF-tY-by8" firstAttribute="centerX" secondItem="qu5-PG-GRt" secondAttribute="centerX" id="bxg-La-41K"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" selectedImage="settings_selected" id="rBh-pf-OH3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="baT-6p-4r7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1767" y="1911"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="8jP-cR-MyR">
+            <objects>
+                <viewController id="WJO-ZK-GRL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OAj-d9-Elb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gry-3d-6F6">
+                                <rect key="frame" x="118" y="415.66666666666669" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bMo-II-PIp"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="Gry-3d-6F6" firstAttribute="centerX" secondItem="OAj-d9-Elb" secondAttribute="centerX" id="Zgl-Et-8Ro"/>
+                            <constraint firstItem="Gry-3d-6F6" firstAttribute="centerY" secondItem="OAj-d9-Elb" secondAttribute="centerY" id="z3x-k3-eJS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="chat" selectedImage="chat_selected" id="e1D-5t-gcy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HDg-LU-hoe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2566" y="1394"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="51y-gT-EIQ">
+            <objects>
+                <tabBarController id="oos-JB-yPy" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iHW-No-0if">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="wKY-BN-Mks" kind="relationship" relationship="viewControllers" id="3XC-f0-vEy"/>
+                        <segue destination="YcA-Px-g1i" kind="relationship" relationship="viewControllers" id="uBK-U6-fqh"/>
+                        <segue destination="PTM-Fw-Hxv" kind="relationship" relationship="viewControllers" id="HHk-a8-0SY"/>
+                        <segue destination="WJO-ZK-GRL" kind="relationship" relationship="viewControllers" id="yvs-Qf-g49"/>
+                        <segue destination="GCF-tq-7VK" kind="relationship" relationship="viewControllers" id="3Xk-Mn-s5N"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r7r-9L-1m0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="996"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="call" width="28.333333969116211" height="28.333333969116211"/>
+        <image name="call_selected" width="28.333333969116211" height="28.333333969116211"/>
+        <image name="chat" width="28.333333969116211" height="28.333333969116211"/>
+        <image name="chat_selected" width="28.333333969116211" height="28.333333969116211"/>
+        <image name="communities" width="28.333333969116211" height="28.333333969116211"/>
+        <image name="communities_selected" width="28.333333969116211" height="28.333333969116211"/>
+        <image name="settings" width="21.333333969116211" height="21.333333969116211"/>
+        <image name="settings_selected" width="21.333333969116211" height="21.333333969116211"/>
+        <image name="updates" width="28.333333969116211" height="28.333333969116211"/>
+        <image name="updates_selected" width="28.333333969116211" height="28.333333969116211"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableCellBlueTextColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
