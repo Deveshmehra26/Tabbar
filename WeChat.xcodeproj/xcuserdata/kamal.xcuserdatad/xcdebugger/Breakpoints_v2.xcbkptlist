@@ -14,11 +14,26 @@
             filePath = "WeChat/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
             <Locations>
+               <Location
+                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad87cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeChat.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "380">
+               </Location>
                <Location
                   uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8711"
                   shouldBeEnabled = "Yes"
@@ -32,10 +47,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "41"
                   endingLineNumber = "41"
-                  offsetFromSymbolStart = "400">
+                  offsetFromSymbolStart = "1420">
                </Location>
                <Location
-                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8772"
+                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8711"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,39 +60,9 @@
                   urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/ChatViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "1580">
-               </Location>
-               <Location
-                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8772"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WeChat.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "WeChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "2400">
-               </Location>
-               <Location
-                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8772"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WeChat.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "WeChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "2356">
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1464">
                </Location>
             </Locations>
          </BreakpointContent>

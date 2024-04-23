@@ -16,7 +16,8 @@ class ChatViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
-        
+        tableView.register(WCMessageTableViewCell.self, forCellReuseIdentifier: "ChatCellID")
+        tableView.separatorInset = UIEdgeInsets(top: 0, left: 100.0, bottom: 0, right: 0.0)
         chatViewModel.getChatList { result in
             switch result {
             case .success:
@@ -35,7 +36,7 @@ extension ChatViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
+        let cell = UITableViewCell()
         guard let chatData = chatViewModel.message(at: indexPath.row) else {
             return cell
         }
@@ -48,9 +49,9 @@ extension ChatViewController: UITableViewDataSource, UITableViewDelegate {
             }
         case .chat:
             if let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCellID", for: indexPath) as? WCMessageTableViewCell {
-                cell.nameLabel.text = chatData.name
-                cell.lastMessageLabel.text = chatData.messages?.last?.message
-                cell.polishImageView()
+//                cell.nameLabel.text = chatData.name
+//                cell.lastMessageLabel.text = chatData.messages?.last?.message
+                cell.polishImageView(imageName: chatData.image)
                 return cell
             }
         }
