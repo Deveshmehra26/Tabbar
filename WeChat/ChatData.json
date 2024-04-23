@@ -1,0 +1,198 @@
+{
+    "header": {
+        "title": "Chat",
+        "left": [
+            {
+                "name": "More",
+                "imageName": "more"
+            }
+        ],
+        "right": [
+            {
+                "name": "Camera",
+                "imageName": "camera"
+            },
+            {
+                "name": "AI",
+                "imageName": "circle"
+            },
+            {
+                "name": "New Chat",
+                "imageName": "plusIcon"
+            }
+        ]
+    },
+    "chats": [
+        {
+            "type": 0,
+            "id": "YYYY-2342-HGSD-2343",
+            "name": "Archived",
+            "image": "devesh_image"
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Devesh Mehra",
+            "status": "read",
+            "image": "kamakshi_1",
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Devesh Mehra",
+            "status": "deliveredNotRead",
+            "image": "Kamakshi_2",
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Devesh Mehra",
+            "status": "unread",
+            "image": "Kamakshi_3",
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Devesh Mehra",
+            "status": "read",
+            "image": "Kamakshi_4",
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Devesh Mehra",
+            "status": "delivered",
+            "image": "Kamakshi_5",
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                }
+            ]
+        }
+    ]
+}
