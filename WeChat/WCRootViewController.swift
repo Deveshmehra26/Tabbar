@@ -7,11 +7,11 @@
 
 import UIKit
 
-
 class WCRootViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        selectedIndex = UserDefaults.standard.integer(forKey: "CurrentSelectedIndex")
+        let prevSelectedIndex = UserDefaults.standard.integer(forKey: "CurrentSelectedIndex") 
+        selectedIndex = prevSelectedIndex
     }
 }
 
@@ -21,8 +21,9 @@ extension WCRootViewController: UITabBarControllerDelegate {
     }
     
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-        if let index = tabBar.items?.firstIndex(of: item) {
-            UserDefaults.standard.set(index, forKey: "CurrentSelectedIndex")
+        if let selectedIndex = tabBar.items?.firstIndex(of: item) {
+            UserDefaults.standard.setValue(selectedIndex, forKey: "CurrentSelectedIndex")
+            UserDefaults.standard.synchronize()
         }
     }
 }

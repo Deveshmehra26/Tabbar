@@ -8,7 +8,6 @@
 import UIKit
 
 class ChatViewController: UIViewController {
-    
     @IBOutlet weak var tableView: UITableView!
     
     let chatViewModel = ChatViewModel()
