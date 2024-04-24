@@ -38,6 +38,8 @@ struct ChatDataModel: Decodable {
     let id: String
     let name: String
     let image: String
+    let isMuted: Bool?
+    let isUnread: Bool?
     let status: MessageStatus?
     let messages: [ChatMessage]?
 }

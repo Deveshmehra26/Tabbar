@@ -32,9 +32,11 @@
         {
             "type": 1,
             "id": "ASJJ-5675-HGSD-9877",
-            "name": "Devesh Mehra",
+            "name": "Kamakshi Harariya",
             "status": "read",
             "image": "kamakshi_1",
+            "isMuted": true,
+            "isUnread": false,
             "messages": [
                 {
                     "id": "chat_id",
@@ -56,18 +58,19 @@
                 },
                 {
                     "id": "chat_id",
-                    "sender": "Devesh Mehra",
-                    "message": "Alright",
-                    "time": 1713721302
+                    "sender": "Kamakshi Harariya",
+                    "message": "I am the best",
+                    "time": 1713911342
                 }
             ]
         },
         {
             "type": 1,
             "id": "ASJJ-5675-HGSD-9877",
-            "name": "Devesh Mehra",
+            "name": "Roopa Mehta",
             "status": "deliveredNotRead",
             "image": "Kamakshi_2",
+            "isUnread": true,
             "messages": [
                 {
                     "id": "chat_id",
@@ -89,18 +92,19 @@
                 },
                 {
                     "id": "chat_id",
-                    "sender": "Devesh Mehra",
-                    "message": "Alright",
-                    "time": 1713721302
+                    "sender": "Roopa Mehra",
+                    "message": "Hamesha kachkach",
+                    "time": 1713711302
                 }
             ]
         },
         {
             "type": 1,
             "id": "ASJJ-5675-HGSD-9877",
-            "name": "Devesh Mehra",
+            "name": "Kamal Harariya",
             "status": "unread",
             "image": "Kamakshi_3",
+            "isUnread": true,
             "messages": [
                 {
                     "id": "chat_id",
@@ -122,18 +126,19 @@
                 },
                 {
                     "id": "chat_id",
-                    "sender": "Devesh Mehra",
-                    "message": "Alright",
-                    "time": 1713721302
+                    "sender": "Kamal Harariya",
+                    "message": "Learn something new today",
+                    "time": 1713411302
                 }
             ]
         },
         {
             "type": 1,
             "id": "ASJJ-5675-HGSD-9877",
-            "name": "Devesh Mehra",
+            "name": "Neha Harariya",
             "status": "read",
             "image": "Kamakshi_4",
+            "isUnread": false,
             "messages": [
                 {
                     "id": "chat_id",
@@ -155,18 +160,19 @@
                 },
                 {
                     "id": "chat_id",
-                    "sender": "Devesh Mehra",
-                    "message": "Alright",
-                    "time": 1713721302
+                    "sender": "Neha Harariya",
+                    "message": "I will be back by 5 PM",
+                    "time": 1713311302
                 }
             ]
         },
         {
             "type": 1,
             "id": "ASJJ-5675-HGSD-9877",
-            "name": "Devesh Mehra",
+            "name": "Ashish Mehra",
             "status": "delivered",
             "image": "Kamakshi_5",
+            "isUnread": true,
             "messages": [
                 {
                     "id": "chat_id",
@@ -189,8 +195,8 @@
                 {
                     "id": "chat_id",
                     "sender": "Devesh Mehra",
-                    "message": "Alright",
-                    "time": 1713721302
+                    "message": "I have started working",
+                    "time": 1713211302
                 }
             ]
         }

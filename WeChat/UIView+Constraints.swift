@@ -13,6 +13,13 @@ extension UIView {
         leadingAnchor.constraint(equalTo: leading, constant: constant).isActive = true
     }
     
+    @discardableResult
+    func trailingAnchor(trailing: NSLayoutXAxisAnchor, constant: CGFloat = 0.0) -> NSLayoutConstraint {
+        let trailingAnchor = trailingAnchor.constraint(equalTo: trailing, constant: constant)
+        trailingAnchor.isActive = true
+        return trailingAnchor
+    }
+    
     func height(constant: CGFloat = 0.0) {
         heightAnchor.constraint(equalToConstant: constant).isActive = true
     }
@@ -22,7 +29,7 @@ extension UIView {
     }
     
     @discardableResult
-    func topAnchor(top: NSLayoutYAxisAnchor, constant: CGFloat) -> NSLayoutConstraint {
+    func topAnchor(top: NSLayoutYAxisAnchor, constant: CGFloat = 0.0) -> NSLayoutConstraint {
         let topAnchor = topAnchor.constraint(equalTo: top, constant: constant)
         topAnchor.isActive = true
         return topAnchor

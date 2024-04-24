@@ -16,7 +16,7 @@ class ChatViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
         tableView.register(WCMessageTableViewCell.self, forCellReuseIdentifier: "ChatCellID")
-        tableView.separatorInset = UIEdgeInsets(top: 0, left: 100.0, bottom: 0, right: 0.0)
+        tableView.separatorInset = UIEdgeInsets(top: 0, left: 86.0, bottom: 0, right: 0.0)
         chatViewModel.getChatList { result in
             switch result {
             case .success:
@@ -43,18 +43,26 @@ extension ChatViewController: UITableViewDataSource, UITableViewDelegate {
         switch chatData.type {
         case .archive:
             if let cell = tableView.dequeueReusableCell(withIdentifier: "ArchiveCellID", for: indexPath) as? WCArchiveTableViewCell {
+                cell.accessoryType = .disclosureIndicator
                 cell.titleLabel.text = chatData.name
                 return cell
             }
         case .chat:
             if let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCellID", for: indexPath) as? WCMessageTableViewCell {
-//                cell.nameLabel.text = chatData.name
-//                cell.lastMessageLabel.text = chatData.messages?.last?.message
+                cell.accessoryType = .disclosureIndicator
+                cell.nameLabel.text = chatData.name
+                let lastMessage: ChatMessage? = chatData.messages?.last
+                cell.lastMessageLabel.text = lastMessage?.message
                 cell.polishImageView(imageName: chatData.image)
+                cell.polishTimeLabel(time: lastMessage?.time, isUnread: chatData.isUnread ?? false)
                 return cell
             }
         }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 
