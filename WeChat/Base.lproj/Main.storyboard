@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oos-JB-yPy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oos-JB-yPy">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -101,14 +101,72 @@
                     <view key="view" contentMode="scaleToFill" id="OAj-d9-Elb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8gC-f3-EBC">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ArchiveCellID" rowHeight="69" id="5DQ-qj-yNk" customClass="WCArchiveTableViewCell" customModule="WeChat" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="69"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5DQ-qj-yNk" id="mep-cN-XOq">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="69"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="archivebox.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GZv-cs-Yfa">
+                                                    <rect key="frame" x="31" y="13.666666666666663" width="30" height="27"/>
+                                                    <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="H5j-kf-WJg"/>
+                                                        <constraint firstAttribute="height" constant="30" id="fMG-u9-a0w"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DrF-Bc-FeA">
+                                                    <rect key="frame" x="82" y="12" width="260.66666666666669" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="GZv-cs-Yfa" firstAttribute="top" secondItem="mep-cN-XOq" secondAttribute="top" constant="12" id="5O0-s6-58d"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="DrF-Bc-FeA" secondAttribute="trailing" constant="12" id="DoM-Hc-dXu"/>
+                                                <constraint firstItem="DrF-Bc-FeA" firstAttribute="top" secondItem="GZv-cs-Yfa" secondAttribute="top" id="KCM-Bz-AoH"/>
+                                                <constraint firstItem="DrF-Bc-FeA" firstAttribute="bottom" secondItem="GZv-cs-Yfa" secondAttribute="bottom" id="k6H-KP-Zfr"/>
+                                                <constraint firstAttribute="bottom" secondItem="GZv-cs-Yfa" secondAttribute="bottom" priority="999" constant="12" id="lCS-6D-POs"/>
+                                                <constraint firstItem="DrF-Bc-FeA" firstAttribute="leading" secondItem="GZv-cs-Yfa" secondAttribute="trailing" constant="21" id="wIr-cc-oNy"/>
+                                                <constraint firstItem="GZv-cs-Yfa" firstAttribute="leading" secondItem="mep-cN-XOq" secondAttribute="leading" constant="31" id="zCF-nw-T72"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="iconImageView" destination="GZv-cs-Yfa" id="qhf-DF-x6F"/>
+                                            <outlet property="titleLabel" destination="DrF-Bc-FeA" id="T1d-nC-gWt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="WJO-ZK-GRL" id="0zD-eK-KgX"/>
+                                    <outlet property="delegate" destination="WJO-ZK-GRL" id="kT3-bH-Q8f"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bMo-II-PIp"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8gC-f3-EBC" firstAttribute="leading" secondItem="bMo-II-PIp" secondAttribute="leading" id="3ed-DZ-krn"/>
+                            <constraint firstItem="bMo-II-PIp" firstAttribute="trailing" secondItem="8gC-f3-EBC" secondAttribute="trailing" id="J6v-qD-oPv"/>
+                            <constraint firstItem="8gC-f3-EBC" firstAttribute="top" secondItem="bMo-II-PIp" secondAttribute="top" id="cEf-lM-mbc"/>
+                            <constraint firstItem="bMo-II-PIp" firstAttribute="bottom" secondItem="8gC-f3-EBC" secondAttribute="bottom" id="rHv-qs-XTn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Chat" largeTitleDisplayMode="always" id="LIe-q0-Nli"/>
+                    <connections>
+                        <outlet property="tableView" destination="8gC-f3-EBC" id="f3W-xu-Raf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HDg-LU-hoe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3495" y="1370"/>
+            <point key="canvasLocation" x="3493.8931297709923" y="1369.7183098591549"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="51y-gT-EIQ">
@@ -172,6 +230,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="archivebox.fill" catalog="system" width="128" height="107"/>
         <image name="call" width="28.333333969116211" height="28.333333969116211"/>
         <image name="call_selected" width="28.333333969116211" height="28.333333969116211"/>
         <image name="chat" width="28.333333969116211" height="28.333333969116211"/>
@@ -182,6 +241,9 @@
         <image name="settings_selected" width="21.333333969116211" height="21.333333969116211"/>
         <image name="updates" width="28.333333969116211" height="28.333333969116211"/>
         <image name="updates_selected" width="28.333333969116211" height="28.333333969116211"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
