@@ -11,24 +11,44 @@ class SettingsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
 
+    let settingViewModel = WCSettingsViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
+        // data
+        settingViewModel.getSettingsData {[weak self] result in
+            switch result {
+            case .success:
+                self?.tableView.reloadData()
+            case .failure:
+                print("error")
+            }
+        }
     }
 }
 
 extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == 0 {
+            return 20.0
+        }
+        return 0.0
+    }
+
     func numberOfSections(in tableView: UITableView) -> Int {
         return 5
     }
-    
+        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        let random = Int.random(in: 1..<5)
+        return random
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath)
         cell.textLabel?.text = "Ash"
+//        cell.backgroundColor = .red
         return cell
     }
     
