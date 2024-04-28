@@ -7,19 +7,25 @@
 
 import Foundation
 
+enum SettingCellType: Int, Codable {
+    case profile = 1
+    case other = 2
+}
+
 struct SettingSection: Codable {
+    let type: SettingCellType
     let name:String
     let imageName: String
-    let isBarCodeAvailable: Bool
+    let isBarCodeAvailable: Bool?
     let status: String?
 }
 struct SettingSectionData: Codable {
-    let data: [SettingSection]
+    let sectionData: [SettingSection]
 }
 
 struct WCSettingsDataModel: Codable {
     let id: String
     let title: String 
     let timeStamp: Int 
-    let sections: SettingSectionData
+    let sections: [SettingSectionData]
 }

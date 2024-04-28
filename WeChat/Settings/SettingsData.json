@@ -1,17 +1,37 @@
 {
     "sections": [
         {
-            "data": [
+            "sectionData": [
                 {
+                    "type": 1,
                     "name":"Kamal Harariya",
                     "status": "You don't let somebody else define your character. You define your own character.",
                     "imageName": "Kamakshi_2",
                     "isBarCodeAvailable": true
                 },
                 {
+                    "type": 2,
                     "name":"Kamal Harariya",
-                    "imageName": "Kamakshi_2",
-                    "isBarCodeAvailable": false
+                    "imageName": "Avtar",
+                }
+            ]
+        },
+        {
+            "sectionData": [
+                {
+                    "type": 2,
+                    "name":"Broadcast Lists",
+                    "imageName": "BroadCast"
+                },
+                {
+                    "type": 2,
+                    "name":"Starred Messages",
+                    "imageName": "Starred"
+                },
+                {
+                    "type": 2,
+                    "name":"Linked Devices",
+                    "imageName": "LinkedDevices"
                 }
             ]
         }

@@ -15,6 +15,10 @@ class WCSettingsViewModel {
         settingsData = nil
     }
     
+    deinit {
+        print("deinit - WCSettingsViewModel")
+    }
+    
     // closure (or block)
     // Error handling
     // 4 type
@@ -24,11 +28,33 @@ class WCSettingsViewModel {
             do {
                 let data = try Data(contentsOf: fileUrl)
                 settingsData = try JSONDecoder().decode(WCSettingsDataModel.self, from: data)
-
                 completion(.success(true))
             } catch(let error) {
                 print("error:\(error)")
             }
         }
+    }
+    
+    func numberOfSections() -> Int {
+        return settingsData?.sections.count ?? 0
+    }
+    
+    func numberOfRows(sectionIndex: Int) -> Int {
+        guard let sections = settingsData?.sections, sectionIndex < sections.count else {
+            return 0
+        }
+        let section = sections[sectionIndex]
+        return section.sectionData.count
+    }
+    
+    func dataAtIndex(index: IndexPath) -> SettingSection? {
+        guard let sections = settingsData?.sections, index.section < sections.count else {
+            return nil
+        }
+        let section = sections[index.section]
+        if index.row < section.sectionData.count {
+            return section.sectionData[index.row]
+        }
+        return nil
     }
 }

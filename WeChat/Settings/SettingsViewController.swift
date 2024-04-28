@@ -10,7 +10,6 @@ import UIKit
 class SettingsViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-
     let settingViewModel = WCSettingsViewModel()
     let searchController = UISearchController(searchResultsController: nil)
     
@@ -18,6 +17,8 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.searchController = searchController
+        tableView.register(WCSettingsProfileTableViewCell.self, forCellReuseIdentifier: "ProfileCellID")
+        tableView.register(WCSettingsTableViewCell.self, forCellReuseIdentifier: "SettingCellID")
         getDataFromServices()
     }
     
@@ -48,31 +49,30 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 5
+        return settingViewModel.numberOfSections()
     }
         
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let random = Int.random(in: 1..<5)
-        return random
+        return settingViewModel.numberOfRows(sectionIndex: section)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath)
-        cell.textLabel?.text = "Ash"
-//        cell.backgroundColor = .red
-        return cell
+        let data = settingViewModel.dataAtIndex(index: indexPath)
+        switch data?.type {
+        case .profile:
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "ProfileCellID", for: indexPath) as? WCSettingsProfileTableViewCell else {
+                return UITableViewCell()
+            }
+            cell.updateContents(data: data)
+            return cell
+        case .other:
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "SettingCellID", for: indexPath) as? WCSettingsTableViewCell else {
+                return UITableViewCell()
+            }
+            cell.updateContents(data: data)
+            return cell
+        case nil:
+            return UITableViewCell()
+        }
     }
-    
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return 15
-//    }
-//    
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath)
-//        cell.textLabel?.text = "Index Path \(indexPath.row)"
-//        cell.detailTextLabel?.text = "devesh"
-//        return cell
-//    }
-    
-    
 }

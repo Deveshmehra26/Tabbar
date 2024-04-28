@@ -11,6 +11,8 @@
 		8A7B3B552BD214730090AAC0 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B3B542BD214730090AAC0 /* CallViewController.swift */; };
 		8A7B3B572BD2147E0090AAC0 /* CommunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B3B562BD2147E0090AAC0 /* CommunitiesViewController.swift */; };
 		8A7B3B592BD214940090AAC0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B3B582BD214940090AAC0 /* ChatViewController.swift */; };
+		8A89B5512BDE111200FDAFB3 /* WCSettingsProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89B5502BDE111200FDAFB3 /* WCSettingsProfileTableViewCell.swift */; };
+		8A89B5532BDE16B300FDAFB3 /* WCSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89B5522BDE16B300FDAFB3 /* WCSettingsTableViewCell.swift */; };
 		8AC959EE2BD563AD00D46CC9 /* WCRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC959ED2BD563AD00D46CC9 /* WCRootViewController.swift */; };
 		8AC959F02BD5809F00D46CC9 /* ChatData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AC959EF2BD5809E00D46CC9 /* ChatData.json */; };
 		8AC959F22BD5887F00D46CC9 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC959F12BD5887F00D46CC9 /* ChatViewModel.swift */; };
@@ -35,6 +37,8 @@
 		8A7B3B542BD214730090AAC0 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
 		8A7B3B562BD2147E0090AAC0 /* CommunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesViewController.swift; sourceTree = "<group>"; };
 		8A7B3B582BD214940090AAC0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8A89B5502BDE111200FDAFB3 /* WCSettingsProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSettingsProfileTableViewCell.swift; sourceTree = "<group>"; };
+		8A89B5522BDE16B300FDAFB3 /* WCSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSettingsTableViewCell.swift; sourceTree = "<group>"; };
 		8AC959ED2BD563AD00D46CC9 /* WCRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCRootViewController.swift; sourceTree = "<group>"; };
 		8AC959EF2BD5809E00D46CC9 /* ChatData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ChatData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		8AC959F12BD5887F00D46CC9 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				FA11136D2BDB5CC500848B2E /* SettingsViewController.swift */,
 				FA1113732BDB5E9800848B2E /* WCSettingsViewModel.swift */,
 				FA1113712BDB5DEE00848B2E /* WCSettingsDataModel.swift */,
+				8A89B5502BDE111200FDAFB3 /* WCSettingsProfileTableViewCell.swift */,
+				8A89B5522BDE16B300FDAFB3 /* WCSettingsTableViewCell.swift */,
 				FA11136F2BDB5D0400848B2E /* SettingsData.json */,
 			);
 			path = Settings;
@@ -229,6 +235,7 @@
 				8A7B3B532BD214680090AAC0 /* StatusViewController.swift in Sources */,
 				FA891F682BD1421700689424 /* AppDelegate.swift in Sources */,
 				8AC959F42BD58E9200D46CC9 /* WCArchiveTableViewCell.swift in Sources */,
+				8A89B5532BDE16B300FDAFB3 /* WCSettingsTableViewCell.swift in Sources */,
 				8ACB10152BD7687200FF109D /* UIView+Constraints.swift in Sources */,
 				8A7B3B592BD214940090AAC0 /* ChatViewController.swift in Sources */,
 				8AC959EE2BD563AD00D46CC9 /* WCRootViewController.swift in Sources */,
@@ -240,6 +247,7 @@
 				FA891F6A2BD1421700689424 /* SceneDelegate.swift in Sources */,
 				8AC959F22BD5887F00D46CC9 /* ChatViewModel.swift in Sources */,
 				8AC959F62BD58ED300D46CC9 /* WCMessageTableViewCell.swift in Sources */,
+				8A89B5512BDE111200FDAFB3 /* WCSettingsProfileTableViewCell.swift in Sources */,
 				FA11136E2BDB5CC500848B2E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

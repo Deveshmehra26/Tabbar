@@ -1,81 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "5A5D3E46-392F-468D-8E88-2BB5DCF3BD4A"
+   uuid = "51B2FED2-CAD4-4FAA-9ECD-49BD081C065F"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA"
+            uuid = "2DFBED60-4872-4CFA-A772-04C1330D20E7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WeChat/ChatViewController.swift"
+            filePath = "WeChat/WCMessageTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40">
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "polishTimeLabel(time:isUnread:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8711"
+                  uuid = "2DFBED60-4872-4CFA-A772-04C1330D20E7 - a72d6cc2b60d7dcd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WeChat.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  symbolName = "WeChat.WCMessageTableViewCell.updateContent(chat: Swift.Optional&lt;WeChat.ChatDataModel&gt;) -&gt; ()"
                   moduleName = "WeChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/ChatViewController.swift"
+                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/WCMessageTableViewCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "400">
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "1296">
                </Location>
                <Location
-                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8772"
+                  uuid = "2DFBED60-4872-4CFA-A772-04C1330D20E7 - 22b6006bde4ab274"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WeChat.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  symbolName = "WeChat.WCMessageTableViewCell.polishTimeLabel(time: Swift.Optional&lt;Swift.Double&gt;, isUnread: Swift.Bool) -&gt; ()"
                   moduleName = "WeChat"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/ChatViewController.swift"
+                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/WCMessageTableViewCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "1580">
-               </Location>
-               <Location
-                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8772"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WeChat.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "WeChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "2400">
-               </Location>
-               <Location
-                  uuid = "66C8AAC7-C9AD-4115-AC6D-EC1D1AEFC8AA - 8cbd171003ad8772"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WeChat.ChatViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
-                  moduleName = "WeChat"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kamal/Documents/Development/Devesh/WeChat/WeChat/ChatViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "2356">
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "2548">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -83,16 +55,30 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C945E6E6-05E1-4640-92C8-24D4B05A70D0"
+            uuid = "7270D51E-80CB-4AC3-ADFD-3BEBDE20B4F3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WeChat/ChatViewController.swift"
+            filePath = "WeChat/SettingsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "ChatViewController"
+            startingLineNumber = "39"
+            endingLineNumber = "39">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B44232C-7B69-4DF0-BD9A-C7F0F5E24057"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeChat/Settings/WCSettingsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "WCSettingsViewModel"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>

@@ -41,4 +41,11 @@ extension UIView {
         bottomAnchor.isActive = true
         return bottomAnchor
     }
+    
+    @discardableResult
+    func centerYAnchor(center: NSLayoutYAxisAnchor) -> NSLayoutConstraint {
+        let center = centerYAnchor.constraint(equalTo: center)
+        center.isActive = true
+        return center
+    }
 }
