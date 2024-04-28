@@ -12,11 +12,16 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
     let settingViewModel = WCSettingsViewModel()
+    let searchController = UISearchController(searchResultsController: nil)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
-        // data
+        navigationItem.searchController = searchController
+        getDataFromServices()
+    }
+    
+    func getDataFromServices() {
         settingViewModel.getSettingsData {[weak self] result in
             switch result {
             case .success:
@@ -25,6 +30,12 @@ class SettingsViewController: UIViewController {
                 print("error")
             }
         }
+    }
+}
+
+extension SettingsViewController: UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        
     }
 }
 

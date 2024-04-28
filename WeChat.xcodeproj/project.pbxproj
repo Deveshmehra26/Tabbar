@@ -22,6 +22,7 @@
 		FA1113702BDB5D0400848B2E /* SettingsData.json in Resources */ = {isa = PBXBuildFile; fileRef = FA11136F2BDB5D0400848B2E /* SettingsData.json */; };
 		FA1113722BDB5DEE00848B2E /* WCSettingsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1113712BDB5DEE00848B2E /* WCSettingsDataModel.swift */; };
 		FA1113742BDB5E9800848B2E /* WCSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1113732BDB5E9800848B2E /* WCSettingsViewModel.swift */; };
+		FA1113762BDE0C6900848B2E /* Requirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1113752BDE0C6900848B2E /* Requirements.swift */; };
 		FA891F682BD1421700689424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA891F672BD1421700689424 /* AppDelegate.swift */; };
 		FA891F6A2BD1421700689424 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA891F692BD1421700689424 /* SceneDelegate.swift */; };
 		FA891F6F2BD1421700689424 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FA891F6E2BD1421700689424 /* Base */; };
@@ -45,6 +46,7 @@
 		FA11136F2BDB5D0400848B2E /* SettingsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SettingsData.json; sourceTree = "<group>"; };
 		FA1113712BDB5DEE00848B2E /* WCSettingsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSettingsDataModel.swift; sourceTree = "<group>"; };
 		FA1113732BDB5E9800848B2E /* WCSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSettingsViewModel.swift; sourceTree = "<group>"; };
+		FA1113752BDE0C6900848B2E /* Requirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requirements.swift; sourceTree = "<group>"; };
 		FA891F642BD1421700689424 /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA891F672BD1421700689424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA891F692BD1421700689424 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				FA891F672BD1421700689424 /* AppDelegate.swift */,
 				FA891F692BD1421700689424 /* SceneDelegate.swift */,
 				8AC959ED2BD563AD00D46CC9 /* WCRootViewController.swift */,
+				FA1113752BDE0C6900848B2E /* Requirements.swift */,
 				FA891F6D2BD1421700689424 /* Main.storyboard */,
 				FA891F702BD1421900689424 /* Assets.xcassets */,
 				FA11136A2BDB582300848B2E /* SettingPage.jpeg */,
@@ -232,6 +235,7 @@
 				8A7B3B552BD214730090AAC0 /* CallViewController.swift in Sources */,
 				FA1113722BDB5DEE00848B2E /* WCSettingsDataModel.swift in Sources */,
 				8A7B3B572BD2147E0090AAC0 /* CommunitiesViewController.swift in Sources */,
+				FA1113762BDE0C6900848B2E /* Requirements.swift in Sources */,
 				FA1113742BDB5E9800848B2E /* WCSettingsViewModel.swift in Sources */,
 				FA891F6A2BD1421700689424 /* SceneDelegate.swift in Sources */,
 				8AC959F22BD5887F00D46CC9 /* ChatViewModel.swift in Sources */,

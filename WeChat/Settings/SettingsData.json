@@ -1,5 +1,22 @@
 {
-    "title": "Settings"
-    "id": "String_vc_controller"
+    "sections": [
+        {
+            "data": [
+                {
+                    "name":"Kamal Harariya",
+                    "status": "You don't let somebody else define your character. You define your own character.",
+                    "imageName": "Kamakshi_2",
+                    "isBarCodeAvailable": true
+                },
+                {
+                    "name":"Kamal Harariya",
+                    "imageName": "Kamakshi_2",
+                    "isBarCodeAvailable": false
+                }
+            ]
+        }
+    ],
+    "title": "Settings",
+    "id": "String_vc_controller",
     "timeStamp": 12341234
 }
