@@ -34,6 +34,49 @@
                     "imageName": "LinkedDevices"
                 }
             ]
+        },
+        {
+            "sectionData": [
+                {
+                    "type": 2,
+                    "name":"Account",
+                    "imageName": "AccountKey"
+                },
+                {
+                    "type": 2,
+                    "name":"Privacy",
+                    "imageName": "Privacy"
+                },
+                {
+                    "type": 2,
+                    "name":"Chats",
+                    "imageName": "Chat 1"
+                },
+                {
+                    "type": 2,
+                    "name":"Notifications",
+                    "imageName": "Notification"
+                },
+                {
+                    "type": 2,
+                    "name":"Storage and Data",
+                    "imageName": "Storage"
+                }
+            ]
+        },
+        {
+            "sectionData": [
+                {
+                    "type": 2,
+                    "name":"Help",
+                    "imageName": "Info"
+                },
+                {
+                    "type": 2,
+                    "name":"Tell a Friend",
+                    "imageName": "Love"
+                }
+            ]
         }
     ],
     "title": "Settings",

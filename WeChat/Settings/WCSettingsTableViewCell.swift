@@ -32,7 +32,7 @@ class WCSettingsTableViewCell: UITableViewCell {
         setupSubview()
     }
     
-    func setupSubview() {
+    private func setupSubview() {
         // Image View
         contentView.addSubview(cellIconView)
         cellIconView.leading(leading: contentView.leadingAnchor, constant: hPadding)

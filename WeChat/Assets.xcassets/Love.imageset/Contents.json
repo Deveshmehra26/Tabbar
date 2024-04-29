@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "7853757_heart_kashifarif_favorite_bookmarkt_love_icon.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
