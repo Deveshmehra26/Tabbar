@@ -65,5 +65,6 @@ class WCSettingsTableViewCell: UITableViewCell {
         cellIconView.image = UIImage(named: _data.imageName)?.withRenderingMode(.alwaysTemplate)
         cellIconView.tintColor = .label
         nameLabel.text = _data.name
+
     }
 }

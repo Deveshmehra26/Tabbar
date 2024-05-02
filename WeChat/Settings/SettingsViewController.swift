@@ -69,6 +69,9 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "SettingCellID", for: indexPath) as? WCSettingsTableViewCell else {
                 return UITableViewCell()
             }
+            if data?.showDisclosure == true {
+                cell.accessoryType = .disclosureIndicator
+            }
             cell.updateContents(data: data)
             return cell
         case nil:

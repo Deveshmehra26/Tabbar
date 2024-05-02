@@ -11,8 +11,9 @@
                 },
                 {
                     "type": 2,
-                    "name":"Kamal Harariya",
+                    "name":"Avatar",
                     "imageName": "Avtar",
+                    "showDisclosure": true
                 }
             ]
         },
@@ -21,17 +22,20 @@
                 {
                     "type": 2,
                     "name":"Broadcast Lists",
-                    "imageName": "BroadCast"
+                    "imageName": "BroadCast",
+                    "showDisclosure": true
                 },
                 {
                     "type": 2,
                     "name":"Starred Messages",
-                    "imageName": "Starred"
+                    "imageName": "Starred",
+                    "showDisclosure": true
                 },
                 {
                     "type": 2,
                     "name":"Linked Devices",
-                    "imageName": "LinkedDevices"
+                    "imageName": "LinkedDevices",
+                    "showDisclosure": true
                 }
             ]
         },
@@ -40,27 +44,33 @@
                 {
                     "type": 2,
                     "name":"Account",
-                    "imageName": "AccountKey"
+                    "imageName": "AccountKey",
+                    "showDisclosure": true
                 },
                 {
                     "type": 2,
                     "name":"Privacy",
-                    "imageName": "Privacy"
+                    "imageName": "Privacy",
+                    "showDisclosure": true
+                    
                 },
                 {
                     "type": 2,
                     "name":"Chats",
-                    "imageName": "Chat 1"
+                    "imageName": "Chat 1",
+                    "showDisclosure": true
                 },
                 {
                     "type": 2,
                     "name":"Notifications",
-                    "imageName": "Notification"
+                    "imageName": "Notification",
+                    "showDisclosure": true
                 },
                 {
                     "type": 2,
                     "name":"Storage and Data",
-                    "imageName": "Storage"
+                    "imageName": "Storage",
+                    "showDisclosure": true
                 }
             ]
         },
@@ -69,12 +79,23 @@
                 {
                     "type": 2,
                     "name":"Help",
-                    "imageName": "Info"
+                    "imageName": "Info",
+                    "showDisclosure": true
                 },
                 {
                     "type": 2,
                     "name":"Tell a Friend",
-                    "imageName": "Love"
+                    "imageName": "Love",
+                    "showDisclosure": true
+                }
+            ]
+        },{
+            "sectionData": [
+                {
+                    "type": 2,
+                    "name":"Developer Setting",
+                    "imageName": "Info",
+                    "showDisclosure": true
                 }
             ]
         }
