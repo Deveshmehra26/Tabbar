@@ -22,6 +22,12 @@ class SettingsViewController: UIViewController {
         getDataFromServices()
     }
     
+    @IBAction func goToNext(_ sender: UIBarButtonItem) {
+        let viewController = CustomViewController()
+//        viewController.view.backgroundColor = .red
+        self.navigationController?.pushViewController(viewController, animated: false)
+    }
+    
     func getDataFromServices() {
         settingViewModel.getSettingsData {[weak self] result in
             switch result {
@@ -77,5 +83,19 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
         case nil:
             return UITableViewCell()
         }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let viewController = CustomViewController()
+        if (indexPath.section == 0 && indexPath.row == 1) {
+
+            
+        } else if (indexPath.section == 1 && indexPath.row == 1){
+            viewController.view.backgroundColor = .yellow
+        } else {
+            viewController.view.backgroundColor = .red
+        }
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
 }
