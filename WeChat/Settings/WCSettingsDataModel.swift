@@ -6,23 +6,7 @@
 //
 
 import Foundation
-/**
- class
- structure
- enum
- anchor
- 
- 
- Custom Data Types
- 
- 
- 
- class ajshdfkjashdfjasdfjkashdfkasdjhfkajsdh {
- 
- }
- 
- typealias Simple = ajshdfkjashdfjasdfjkashdfkasdjhfkajsdh 
- */
+
 enum SettingCellType: Int, Codable {
     case profile = 1
     case other = 2
@@ -43,8 +27,7 @@ struct SettingSectionData: Codable {
 
 struct WCSettingsDataModel: Codable {
     let id: String
-    let title: String  // "5"
+    let title: String
     let timeStamp: Int
-//    let sections: [SettingSectionData]
     let sections: Array<SettingSectionData>
 }

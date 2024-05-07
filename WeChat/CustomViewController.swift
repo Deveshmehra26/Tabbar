@@ -10,7 +10,7 @@ import UIKit
 class CustomViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .green
+        view.backgroundColor = .green
         
         let button = UIButton()
         button.backgroundColor = .red

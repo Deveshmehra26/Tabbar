@@ -24,7 +24,6 @@ class SettingsViewController: UIViewController {
     
     @IBAction func goToNext(_ sender: UIBarButtonItem) {
         let viewController = CustomViewController()
-//        viewController.view.backgroundColor = .red
         self.navigationController?.pushViewController(viewController, animated: false)
     }
     

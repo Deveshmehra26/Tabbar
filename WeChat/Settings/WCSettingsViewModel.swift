@@ -19,10 +19,6 @@ class WCSettingsViewModel {
         print("deinit - WCSettingsViewModel")
     }
     
-    // closure (or block)
-    // Error handling
-    // 4 type
-        /// 1. do - catch
     func getSettingsData(completion: (Result<Bool, Error>) -> Void) {
         if let fileUrl = Bundle.main.url(forResource: "SettingsData", withExtension: "json") {
             do {
