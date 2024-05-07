@@ -43,7 +43,6 @@ extension ChatViewController: UITableViewDataSource, UITableViewDelegate {
         switch chatData.type {
         case .archive:
             if let cell = tableView.dequeueReusableCell(withIdentifier: "ArchiveCellID", for: indexPath) as? WCArchiveTableViewCell {
-                cell.accessoryType = .disclosureIndicator
                 cell.titleLabel.text = chatData.name
                 return cell
             }

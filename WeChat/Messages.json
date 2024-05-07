@@ -1,0 +1,181 @@
+{
+    "chats": [
+        {
+            "type": 0,
+            "id": "YYYY-2342-HGSD-2343",
+            "name": "Archived",
+            "image": "devesh_image"
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Kamakshi Harariya",
+            "status": "read",
+            "image": "kamakshi_1",
+            "isMuted": true,
+            "isUnread": false,
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Kamakshi Harariya",
+                    "message": "I am the best",
+                    "time": 1713911342
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Roopa Mehta",
+            "status": "deliveredNotRead",
+            "image": "Kamakshi_2",
+            "isUnread": true,
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Roopa Mehra",
+                    "message": "Hamesha kachkach",
+                    "time": 1713711302
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Kamal Harariya",
+            "status": "unread",
+            "image": "Kamakshi_3",
+            "isUnread": true,
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Kamal Harariya",
+                    "message": "Learn something new today",
+                    "time": 1713411302
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Neha Harariya",
+            "status": "read",
+            "image": "Kamakshi_4",
+            "isUnread": false,
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Neha Harariya",
+                    "message": "I will be back by 5 PM",
+                    "time": 1713311302
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": "ASJJ-5675-HGSD-9877",
+            "name": "Ashish Mehra",
+            "status": "delivered",
+            "image": "Kamakshi_5",
+            "isUnread": true,
+            "messages": [
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "you",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "Alright",
+                    "time": 1713721302
+                },
+                {
+                    "id": "chat_id",
+                    "sender": "Devesh Mehra",
+                    "message": "I have started working",
+                    "time": 1713211302
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "sections": [
+        {
+            "sectionData": [
+                {
+                    "type": 1,
+                    "name":"Devesh Singh Mehra",
+                    "status": "You don't let somebody else define your character. You define your own character.",
+                    "imageName": "Kamakshi_2",
+                    "isBarCodeAvailable": true
+                },
+                {
+                    "type": 2,
+                    "name":"Avatar",
+                    "imageName": "Avtar",
+                    "showDisclosure": true
+                }
+            ]
+        },
+        {
+            "sectionData": [
+                {
+                    "type": 2,
+                    "name":"Broadcast Lists",
+                    "imageName": "BroadCast",
+                    "showDisclosure": true
+                },
+                {
+                    "type": 2,
+                    "name":"Starred Messages",
+                    "imageName": "Starred",
+                    "showDisclosure": true
+                },
+                {
+                    "type": 2,
+                    "name":"Linked Devices",
+                    "imageName": "LinkedDevices",
+                    "showDisclosure": true
+                }
+            ]
+        },
+        {
+            "sectionData": [
+                {
+                    "type": 2,
+                    "name":"Account",
+                    "imageName": "AccountKey",
+                    "showDisclosure": true
+                },
+                {
+                    "type": 2,
+                    "name":"Privacy",
+                    "imageName": "Privacy",
+                    "showDisclosure": true
+                    
+                },
+                {
+                    "type": 2,
+                    "name":"Chats",
+                    "imageName": "Chat 1",
+                    "showDisclosure": true
+                },
+                {
+                    "type": 2,
+                    "name":"Notifications",
+                    "imageName": "Notification",
+                    "showDisclosure": true
+                },
+                {
+                    "type": 2,
+                    "name":"Storage and Data",
+                    "imageName": "Storage",
+                    "showDisclosure": true
+                }
+            ]
+        },
+        {
+            "sectionData": [
+                {
+                    "type": 2,
+                    "name":"Help",
+                    "imageName": "Info",
+                    "showDisclosure": true
+                },
+                {
+                    "type": 2,
+                    "name":"Tell a Friend",
+                    "imageName": "Love",
+                    "showDisclosure": true
+                }
+            ]
+        },{
+            "sectionData": [
+                {
+                    "type": 2,
+                    "name":"Developer Setting",
+                    "imageName": "Info",
+                    "showDisclosure": true
+                }
+            ]
+        }
+    ],
+    "title": "Settings",
+    "id": "String_vc_controller",
+    "timeStamp": 12341234
+}
