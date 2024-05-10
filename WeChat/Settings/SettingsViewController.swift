@@ -22,10 +22,10 @@ class SettingsViewController: UIViewController {
         getDataFromServices()
     }
     
-    @IBAction func goToNext(_ sender: UIBarButtonItem) {
-        let viewController = CustomViewController()
-        self.navigationController?.pushViewController(viewController, animated: false)
-    }
+//    @IBAction func goToNext(_ sender: UIBarButtonItem) {
+//        let viewController = CustomViewController()
+//        self.navigationController?.pushViewController(viewController, animated: false)
+//    }
     
     func getDataFromServices() {
         settingViewModel.getSettingsData {[weak self] result in
@@ -93,7 +93,7 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
         } else if (indexPath.section == 1 && indexPath.row == 1){
             viewController.view.backgroundColor = .yellow
         } else {
-            viewController.view.backgroundColor = .red
+            viewController.view.backgroundColor = .blue
         }
         self.navigationController?.pushViewController(viewController, animated: true)
     }
